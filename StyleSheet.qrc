@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>StyleSheet/QFramelessWindow/dark_style.qss</file>
+        <file>StyleSheet/QFramelessWindow/light_style.qss</file>
+        <file>StyleSheet/TitleBar/dark_style.qss</file>
+        <file>StyleSheet/TitleBar/light_style.qss</file>
+    </qresource>
+</RCC>

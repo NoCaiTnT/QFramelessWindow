@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/TitleBar/close.svg</file>
+        <file>Resources/TitleBar/fullscreen.svg</file>
+        <file>Resources/TitleBar/maximize.svg</file>
+        <file>Resources/TitleBar/minimize.svg</file>
+        <file>Resources/TitleBar/restore.svg</file>
+        <file>Resources/TitleBar/appIcon.png</file>
+        <file>Resources/TitleBar/more_line.svg</file>
+        <file>Resources/TitleBar/1.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,11 @@
+QFramelesswindow {
+    background-color: #1E1E1E;
+}
+
+QFramelesswindow[custom_style=true] {
+    background-color: transparent;
+}
+
+QWidget {
+    background-color: transparent;
+}

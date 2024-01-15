@@ -1,0 +1,60 @@
+TitleBar[bar_active=true] {
+    background-color: #3C3C3C;
+}
+
+TitleBar[bar_active=false] {
+    background-color: #505050;
+}
+
+TitleBar>QLabel#win_title_label {
+    padding: 0;
+    border: none;
+    color: #ECECEC;
+    background-color: transparent;
+    min-height: 28px;
+}
+
+TitleBar>QAbstractButton[system_button=true] {
+    qproperty-iconSize: 12px 12px;
+    min-width: 50px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+TitleBar>QAbstractButton#min_button {
+    qproperty-icon_normal_: url(":/Resources/TitleBar/minimize.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+TitleBar>QAbstractButton#min_button:hover,
+TitleBar>QAbstractButton#min_button:pressed {
+    background-color: rgba(255, 255, 255, 15%);
+}
+
+TitleBar>QAbstractButton#max_button {
+    qproperty-icon_normal_: url(":/Resources/TitleBar/maximize.svg");
+    qproperty-icon_checked_: url(":/Resources/TitleBar/restore.svg");
+}
+
+TitleBar>QAbstractButton#max_button:hover,
+TitleBar>QAbstractButton#max_button:pressed {
+    background-color: rgba(255, 255, 255, 15%);
+}
+
+TitleBar>QAbstractButton#close_button {
+    qproperty-icon_normal_: url(":/Resources/TitleBar/close.svg");
+}
+
+TitleBar>QAbstractButton#close_button:hover,
+TitleBar>QAbstractButton#close_button:pressed {
+    background-color: #e81123;
+}
+
+TitleBar>QAbstractButton#icon_button {
+    qproperty-iconSize: 18px 18px;
+    min-width: 40px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
