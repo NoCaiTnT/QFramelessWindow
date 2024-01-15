@@ -13,6 +13,7 @@ INCLUDEPATH += \
     $$PWD\TitleBar \
 
 SOURCES += \
+    example.cpp \
     main.cpp \
     qframelesswindow.cpp \
     TitleBar\titlebar.cpp \
@@ -20,6 +21,7 @@ SOURCES += \
 
 HEADERS += \
     TitleBar/titlebarprivate.h \
+    example.h \
     qframelesswindow.h \
     TitleBar\titlebar.h \
     TitleBar\titlebarbutton.h\

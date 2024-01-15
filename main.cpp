@@ -1,10 +1,10 @@
-#include "qframelesswindow.h"
+#include "example.h"
 
 #include <QApplication>
 
 int main(int argc, char *argv[]){
     QApplication a(argc, argv);
-    QFramelessWindow w;
-    w.show();
+    Example e;
+    e.show();
     return a.exec();
 }
