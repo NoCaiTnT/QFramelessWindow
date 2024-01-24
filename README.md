@@ -14,8 +14,12 @@
 4.  使用QSS控制窗口样式，清晰方便。
 
 ## 效果图
-
+Win11效果图
 ![Windows11效果图](example_win11.png)
+Win10效果图
+![Windows10效果图](example_win10.png)
+Ubuntu22.04效果图
+![Ubuntu22.04效果图](example_linux.png)
 
 ## 环境
 Windows:
@@ -25,6 +29,7 @@ Windows:
 3. MinGW 11.2.0 64-bit
 4. CMake 3.27.7
 5. Ninja 1.10.2
+6. Add qwindowkit/bin to PATH
 
 ## 使用举例
 
