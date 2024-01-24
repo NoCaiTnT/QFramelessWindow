@@ -3,9 +3,9 @@ QFramelesswindow {
 }
 
 QFramelesswindow[custom_style=true] {
-    background-color: transparent;
+    background-color: #1E1E1E;
 }
 
 QWidget {
-    background-color: transparent;
+    background-color: #1E1E1E;
 }
