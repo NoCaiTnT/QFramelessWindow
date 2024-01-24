@@ -31,6 +31,14 @@ Windows:
 5. Ninja 1.10.2
 6. Add qwindowkit/bin to PATH
 
+Linux:
+
+1. Qt Creator 12.0.1 (Community)
+2. Qt 6.6.1
+3. GCC 11.4.0 64-bit
+4. CMake 3.27.7
+5. Ninja 1.10.2
+
 ## 使用举例
 
 1.  创建一个类，直接继承该类。
